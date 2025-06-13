@@ -19,3 +19,8 @@ python app.py
 ```
 
 The app reads from the spreadsheet on each request and writes back on form submissions. Editing the spreadsheet directly is reflected on reload.
+
+### Import/Export
+
+- `/export_excel` downloads the current data as an Excel file with three sheets.
+- `/import_csv` accepts a CSV upload with columns `Person,Project,Month,Fraction` and appends rows to the Assignments sheet.
